@@ -1,0 +1,58 @@
+.App {
+  padding-top: 36px;
+  text-align: center;
+  
+}
+
+.SearchForm {
+  background: teal;
+
+}
+.SearchForm-wrapper {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.MoviesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding: 20px;
+}
+
+.MoviesList > div {
+  width: 300px;
+  height: 600px;
+  box-shadow:20px 20px 50px 15px black;
+}
+
+#detail {
+  background:  rgba(160, 179, 180, 0.46);
+  box-shadow:20px 20px 50px 15px grey;
+  margin: auto;
+  padding: 25px 25px 25px 25px;
+  width: 50%;
+  height: auto;
+}
+
+#detail-content {
+  padding: 50px;
+}
+.titulo {
+  box-shadow:20px 20px 70px 15px grey;
+
+  animation: transf 5s;
+
+  /* animation: mymove 8s; */
+}
+@keyframes transf {
+ /* 50% {width: 300px;
+  height: 300px; */
+  0% {transform: rotateY(360deg);}
+
+}
+/* @keyframes mymove {
+ 50% {text-shadow: 10px 20px 30px rgb(68, 76, 113);}
+} */
